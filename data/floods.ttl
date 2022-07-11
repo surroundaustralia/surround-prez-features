@@ -19,9 +19,11 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 data:1 a geo:Feature ;
     dcterms:identifier "1"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.372248e+03 ;
@@ -34,6 +36,7 @@ data:1 a geo:Feature ;
 
 data:10 a geo:Feature ;
     dcterms:identifier "10"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.712561e+04 ;
@@ -46,6 +49,7 @@ data:10 a geo:Feature ;
 
 data:100 a geo:Feature ;
     dcterms:identifier "100"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.266149e+03 ;
@@ -58,6 +62,7 @@ data:100 a geo:Feature ;
 
 data:1000 a geo:Feature ;
     dcterms:identifier "1000"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.421806e+03 ;
@@ -70,6 +75,7 @@ data:1000 a geo:Feature ;
 
 data:1001 a geo:Feature ;
     dcterms:identifier "1001"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.256705e+04 ;
@@ -82,6 +88,7 @@ data:1001 a geo:Feature ;
 
 data:1002 a geo:Feature ;
     dcterms:identifier "1002"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.621331e+03 ;
@@ -94,6 +101,7 @@ data:1002 a geo:Feature ;
 
 data:1003 a geo:Feature ;
     dcterms:identifier "1003"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.97286e+03 ;
@@ -106,6 +114,7 @@ data:1003 a geo:Feature ;
 
 data:1004 a geo:Feature ;
     dcterms:identifier "1004"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.667163e+04 ;
@@ -118,6 +127,7 @@ data:1004 a geo:Feature ;
 
 data:1005 a geo:Feature ;
     dcterms:identifier "1005"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.427236e+04 ;
@@ -130,6 +140,7 @@ data:1005 a geo:Feature ;
 
 data:1006 a geo:Feature ;
     dcterms:identifier "1006"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.710281e+04 ;
@@ -142,6 +153,7 @@ data:1006 a geo:Feature ;
 
 data:1007 a geo:Feature ;
     dcterms:identifier "1007"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.323169e+03 ;
@@ -154,6 +166,7 @@ data:1007 a geo:Feature ;
 
 data:1008 a geo:Feature ;
     dcterms:identifier "1008"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.58283e+04 ;
@@ -166,6 +179,7 @@ data:1008 a geo:Feature ;
 
 data:1009 a geo:Feature ;
     dcterms:identifier "1009"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.389798e+03 ;
@@ -178,6 +192,7 @@ data:1009 a geo:Feature ;
 
 data:101 a geo:Feature ;
     dcterms:identifier "101"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 5.617974e+03 ;
@@ -190,6 +205,7 @@ data:101 a geo:Feature ;
 
 data:1010 a geo:Feature ;
     dcterms:identifier "1010"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.811902e+03 ;
@@ -202,6 +218,7 @@ data:1010 a geo:Feature ;
 
 data:1011 a geo:Feature ;
     dcterms:identifier "1011"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.551056e+03 ;
@@ -214,6 +231,7 @@ data:1011 a geo:Feature ;
 
 data:1012 a geo:Feature ;
     dcterms:identifier "1012"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 8.603427e+03 ;
@@ -226,6 +244,7 @@ data:1012 a geo:Feature ;
 
 data:1013 a geo:Feature ;
     dcterms:identifier "1013"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.087571e+04 ;
@@ -238,6 +257,7 @@ data:1013 a geo:Feature ;
 
 data:1014 a geo:Feature ;
     dcterms:identifier "1014"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.007831e+03 ;
@@ -250,6 +270,7 @@ data:1014 a geo:Feature ;
 
 data:1015 a geo:Feature ;
     dcterms:identifier "1015"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 9.298509e+03 ;
@@ -262,6 +283,7 @@ data:1015 a geo:Feature ;
 
 data:1016 a geo:Feature ;
     dcterms:identifier "1016"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.318064e+03 ;
@@ -274,6 +296,7 @@ data:1016 a geo:Feature ;
 
 data:1017 a geo:Feature ;
     dcterms:identifier "1017"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.620263e+04 ;
@@ -286,6 +309,7 @@ data:1017 a geo:Feature ;
 
 data:1018 a geo:Feature ;
     dcterms:identifier "1018"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.713339e+03 ;
@@ -298,6 +322,7 @@ data:1018 a geo:Feature ;
 
 data:1019 a geo:Feature ;
     dcterms:identifier "1019"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.091376e+04 ;
@@ -310,6 +335,7 @@ data:1019 a geo:Feature ;
 
 data:102 a geo:Feature ;
     dcterms:identifier "102"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 5.226791e+03 ;
@@ -322,6 +348,7 @@ data:102 a geo:Feature ;
 
 data:1020 a geo:Feature ;
     dcterms:identifier "1020"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 8.116416e+03 ;
@@ -334,6 +361,7 @@ data:1020 a geo:Feature ;
 
 data:1021 a geo:Feature ;
     dcterms:identifier "1021"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.239973e+03 ;
@@ -346,6 +374,7 @@ data:1021 a geo:Feature ;
 
 data:1022 a geo:Feature ;
     dcterms:identifier "1022"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.986811e+04 ;
@@ -358,6 +387,7 @@ data:1022 a geo:Feature ;
 
 data:1023 a geo:Feature ;
     dcterms:identifier "1023"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.202724e+03 ;
@@ -370,6 +400,7 @@ data:1023 a geo:Feature ;
 
 data:1024 a geo:Feature ;
     dcterms:identifier "1024"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.316405e+03 ;
@@ -382,6 +413,7 @@ data:1024 a geo:Feature ;
 
 data:1025 a geo:Feature ;
     dcterms:identifier "1025"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.204541e+05 ;
@@ -394,6 +426,7 @@ data:1025 a geo:Feature ;
 
 data:1026 a geo:Feature ;
     dcterms:identifier "1026"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 9.03256e+02 ;
@@ -406,6 +439,7 @@ data:1026 a geo:Feature ;
 
 data:1027 a geo:Feature ;
     dcterms:identifier "1027"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.874569e+03 ;
@@ -418,6 +452,7 @@ data:1027 a geo:Feature ;
 
 data:1028 a geo:Feature ;
     dcterms:identifier "1028"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.434385e+03 ;
@@ -430,6 +465,7 @@ data:1028 a geo:Feature ;
 
 data:1029 a geo:Feature ;
     dcterms:identifier "1029"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.13537e+03 ;
@@ -442,6 +478,7 @@ data:1029 a geo:Feature ;
 
 data:103 a geo:Feature ;
     dcterms:identifier "103"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.053058e+04 ;
@@ -454,6 +491,7 @@ data:103 a geo:Feature ;
 
 data:1030 a geo:Feature ;
     dcterms:identifier "1030"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.189233e+03 ;
@@ -466,6 +504,7 @@ data:1030 a geo:Feature ;
 
 data:1031 a geo:Feature ;
     dcterms:identifier "1031"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.142965e+03 ;
@@ -478,6 +517,7 @@ data:1031 a geo:Feature ;
 
 data:1032 a geo:Feature ;
     dcterms:identifier "1032"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 9.781696e+03 ;
@@ -490,6 +530,7 @@ data:1032 a geo:Feature ;
 
 data:1033 a geo:Feature ;
     dcterms:identifier "1033"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.183931e+03 ;
@@ -502,6 +543,7 @@ data:1033 a geo:Feature ;
 
 data:1034 a geo:Feature ;
     dcterms:identifier "1034"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.549521e+04 ;
@@ -514,6 +556,7 @@ data:1034 a geo:Feature ;
 
 data:1035 a geo:Feature ;
     dcterms:identifier "1035"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.774172e+03 ;
@@ -526,6 +569,7 @@ data:1035 a geo:Feature ;
 
 data:1036 a geo:Feature ;
     dcterms:identifier "1036"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.241843e+05 ;
@@ -538,6 +582,7 @@ data:1036 a geo:Feature ;
 
 data:1037 a geo:Feature ;
     dcterms:identifier "1037"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.634101e+03 ;
@@ -550,6 +595,7 @@ data:1037 a geo:Feature ;
 
 data:1038 a geo:Feature ;
     dcterms:identifier "1038"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.030061e+03 ;
@@ -562,6 +608,7 @@ data:1038 a geo:Feature ;
 
 data:1039 a geo:Feature ;
     dcterms:identifier "1039"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.489178e+04 ;
@@ -574,6 +621,7 @@ data:1039 a geo:Feature ;
 
 data:104 a geo:Feature ;
     dcterms:identifier "104"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 8.863142e+03 ;
@@ -586,6 +634,7 @@ data:104 a geo:Feature ;
 
 data:1040 a geo:Feature ;
     dcterms:identifier "1040"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.325942e+04 ;
@@ -598,6 +647,7 @@ data:1040 a geo:Feature ;
 
 data:1041 a geo:Feature ;
     dcterms:identifier "1041"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 9.605594e+02 ;
@@ -610,6 +660,7 @@ data:1041 a geo:Feature ;
 
 data:1042 a geo:Feature ;
     dcterms:identifier "1042"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.783218e+03 ;
@@ -622,6 +673,7 @@ data:1042 a geo:Feature ;
 
 data:1043 a geo:Feature ;
     dcterms:identifier "1043"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 5.590277e+05 ;
@@ -634,6 +686,7 @@ data:1043 a geo:Feature ;
 
 data:1044 a geo:Feature ;
     dcterms:identifier "1044"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.649374e+04 ;
@@ -646,6 +699,7 @@ data:1044 a geo:Feature ;
 
 data:1045 a geo:Feature ;
     dcterms:identifier "1045"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.413552e+04 ;
@@ -658,6 +712,7 @@ data:1045 a geo:Feature ;
 
 data:1046 a geo:Feature ;
     dcterms:identifier "1046"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.605298e+04 ;
@@ -670,6 +725,7 @@ data:1046 a geo:Feature ;
 
 data:1047 a geo:Feature ;
     dcterms:identifier "1047"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.212816e+04 ;
@@ -682,6 +738,7 @@ data:1047 a geo:Feature ;
 
 data:1048 a geo:Feature ;
     dcterms:identifier "1048"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.765911e+05 ;
@@ -694,6 +751,7 @@ data:1048 a geo:Feature ;
 
 data:1049 a geo:Feature ;
     dcterms:identifier "1049"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.315685e+04 ;
@@ -706,6 +764,7 @@ data:1049 a geo:Feature ;
 
 data:105 a geo:Feature ;
     dcterms:identifier "105"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.66199e+03 ;
@@ -718,6 +777,7 @@ data:105 a geo:Feature ;
 
 data:1050 a geo:Feature ;
     dcterms:identifier "1050"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.056224e+04 ;
@@ -730,6 +790,7 @@ data:1050 a geo:Feature ;
 
 data:1051 a geo:Feature ;
     dcterms:identifier "1051"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.443819e+03 ;
@@ -742,6 +803,7 @@ data:1051 a geo:Feature ;
 
 data:1052 a geo:Feature ;
     dcterms:identifier "1052"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.77942e+04 ;
@@ -754,6 +816,7 @@ data:1052 a geo:Feature ;
 
 data:1053 a geo:Feature ;
     dcterms:identifier "1053"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.690499e+03 ;
@@ -766,6 +829,7 @@ data:1053 a geo:Feature ;
 
 data:1054 a geo:Feature ;
     dcterms:identifier "1054"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 4.599424e+03 ;
@@ -778,6 +842,7 @@ data:1054 a geo:Feature ;
 
 data:1055 a geo:Feature ;
     dcterms:identifier "1055"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 8.239483e+03 ;
@@ -790,6 +855,7 @@ data:1055 a geo:Feature ;
 
 data:1056 a geo:Feature ;
     dcterms:identifier "1056"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.016957e+03 ;
@@ -802,6 +868,7 @@ data:1056 a geo:Feature ;
 
 data:1057 a geo:Feature ;
     dcterms:identifier "1057"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.70613e+03 ;
@@ -814,6 +881,7 @@ data:1057 a geo:Feature ;
 
 data:1058 a geo:Feature ;
     dcterms:identifier "1058"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.45321e+04 ;
@@ -826,6 +894,7 @@ data:1058 a geo:Feature ;
 
 data:1059 a geo:Feature ;
     dcterms:identifier "1059"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.499884e+03 ;
@@ -838,6 +907,7 @@ data:1059 a geo:Feature ;
 
 data:106 a geo:Feature ;
     dcterms:identifier "106"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.279064e+03 ;
@@ -850,6 +920,7 @@ data:106 a geo:Feature ;
 
 data:1060 a geo:Feature ;
     dcterms:identifier "1060"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.536352e+03 ;
@@ -862,6 +933,7 @@ data:1060 a geo:Feature ;
 
 data:1061 a geo:Feature ;
     dcterms:identifier "1061"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.745878e+03 ;
@@ -874,6 +946,7 @@ data:1061 a geo:Feature ;
 
 data:1062 a geo:Feature ;
     dcterms:identifier "1062"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 5.361104e+03 ;
@@ -886,6 +959,7 @@ data:1062 a geo:Feature ;
 
 data:1063 a geo:Feature ;
     dcterms:identifier "1063"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 6.44878e+03 ;
@@ -898,6 +972,7 @@ data:1063 a geo:Feature ;
 
 data:1064 a geo:Feature ;
     dcterms:identifier "1064"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 2.130231e+03 ;
@@ -910,6 +985,7 @@ data:1064 a geo:Feature ;
 
 data:1065 a geo:Feature ;
     dcterms:identifier "1065"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 9.653812e+03 ;
@@ -922,6 +998,7 @@ data:1065 a geo:Feature ;
 
 data:1066 a geo:Feature ;
     dcterms:identifier "1066"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.481852e+03 ;
@@ -934,6 +1011,7 @@ data:1066 a geo:Feature ;
 
 data:1067 a geo:Feature ;
     dcterms:identifier "1067"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 5.174503e+03 ;
@@ -946,6 +1024,7 @@ data:1067 a geo:Feature ;
 
 data:1068 a geo:Feature ;
     dcterms:identifier "1068"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.132034e+03 ;
@@ -958,6 +1037,7 @@ data:1068 a geo:Feature ;
 
 data:1069 a geo:Feature ;
     dcterms:identifier "1069"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.199108e+03 ;
@@ -970,6 +1050,7 @@ data:1069 a geo:Feature ;
 
 data:107 a geo:Feature ;
     dcterms:identifier "107"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 7.567684e+03 ;
@@ -982,6 +1063,7 @@ data:107 a geo:Feature ;
 
 data:1070 a geo:Feature ;
     dcterms:identifier "1070"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 3.031491e+04 ;
@@ -994,6 +1076,7 @@ data:1070 a geo:Feature ;
 
 data:1071 a geo:Feature ;
     dcterms:identifier "1071"^^xsd:token ;
+    rdfs:member :hawkesbury-2021 ;
     dcterms:isPartOf :hawkesbury-2021 ;
     geo:hasArea [ a geo:SpatialMeasure ;
             qudt:numericValue 1.613784e+05 ;
@@ -1042,6 +1125,7 @@ Currently the only flood Feature Collection available is for the 2021 Hawkesbury
         owl:Ontology ;
     dcterms:description "Collection representing areas flooded in the Hawkesbury Flood on 22 March 2021"@en ;
     dcterms:identifier "HF2021"^^xsd:token ;
+    rdfs:member dataset: ;
     dcterms:isPartOf dataset: ;
     dcterms:title "Hawkesbury Flood 2021 Feature Collection"@en ;
     geo:hasBoundingBox [ a geo:Geometry ;
@@ -1049,4 +1133,5 @@ Currently the only flood Feature Collection available is for the 2021 Hawkesbury
             geo:asWKT "POLYGON ((96.0000 -45.0000, 96.0000 -9.0000, 168.0000 -9.0000, 168.0000 -45.0000, 96.0000 -45.0000))"^^geo:wktLiteral ] ;
     skos:altLabel "HF2021" ;
     common:featureDate "2021-03-22"^^xsd:date .
+
 
