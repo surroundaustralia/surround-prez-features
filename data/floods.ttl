@@ -19,6 +19,7 @@
 @prefix unit: <http://qudt.org/vocab/unit/> .
 @prefix vcard: <http://www.w3.org/2006/vcard/ns#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 
 data:1 a geo:Feature ;
     dcterms:identifier "1"^^xsd:token ;
@@ -1035,6 +1036,7 @@ Currently the only flood Feature Collection available is for the 2021 Hawkesbury
         "Hawkesbury",
         "NSW" ;
     dcat:theme themes:floods ;
+    rdfs:member :hawkesbury-2021 ; 
     prov:asInBundle :provenance ;
     prov:wasDerivedFrom dataset: .
 
@@ -1047,6 +1049,89 @@ Currently the only flood Feature Collection available is for the 2021 Hawkesbury
     geo:hasBoundingBox [ a geo:Geometry ;
             geo:asGeoJSON "{\"type\": \"Polygon\", \"coordinates\": [[ [96.0,-45.0],[96.0,-9.0], [168.0,-9.0], [168.0,-45.0], [96.0,-45.0]]]}"^^geo:geoJSONLiteral ;
             geo:asWKT "POLYGON ((96.0000 -45.0000, 96.0000 -9.0000, 168.0000 -9.0000, 168.0000 -45.0000, 96.0000 -45.0000))"^^geo:wktLiteral ] ;
+    rdfs:member data:1 ;
+    rdfs:member data:10 ;
+    rdfs:member data:100 ;
+    rdfs:member data:1000 ;
+    rdfs:member data:1001 ;
+    rdfs:member data:1002 ;
+    rdfs:member data:1003 ;
+    rdfs:member data:1004 ;
+    rdfs:member data:1005 ;
+    rdfs:member data:1006 ;
+    rdfs:member data:1007 ;
+    rdfs:member data:1008 ;
+    rdfs:member data:1009 ;
+    rdfs:member data:101 ;
+    rdfs:member data:1010 ;
+    rdfs:member data:1011 ;
+    rdfs:member data:1012 ;
+    rdfs:member data:1013 ;
+    rdfs:member data:1014 ;
+    rdfs:member data:1015 ;
+    rdfs:member data:1016 ;
+    rdfs:member data:1017 ;
+    rdfs:member data:1018 ;
+    rdfs:member data:1019 ;
+    rdfs:member data:102 ;
+    rdfs:member data:1020 ;
+    rdfs:member data:1021 ;
+    rdfs:member data:1022 ;
+    rdfs:member data:1023 ;
+    rdfs:member data:1024 ;
+    rdfs:member data:1025 ;
+    rdfs:member data:1026 ;
+    rdfs:member data:1027 ;
+    rdfs:member data:1028 ;
+    rdfs:member data:1029 ;
+    rdfs:member data:103 ;
+    rdfs:member data:1030 ;
+    rdfs:member data:1031 ;
+    rdfs:member data:1032 ;
+    rdfs:member data:1033 ;
+    rdfs:member data:1034 ;
+    rdfs:member data:1035 ;
+    rdfs:member data:1036 ;
+    rdfs:member data:1037 ;
+    rdfs:member data:1038 ;
+    rdfs:member data:1039 ;
+    rdfs:member data:104 ;
+    rdfs:member data:1040 ;
+    rdfs:member data:1041 ;
+    rdfs:member data:1042 ;
+    rdfs:member data:1043 ;
+    rdfs:member data:1044 ;
+    rdfs:member data:1045 ;
+    rdfs:member data:1046 ;
+    rdfs:member data:1047 ;
+    rdfs:member data:1048 ;
+    rdfs:member data:1049 ;
+    rdfs:member data:105 ;
+    rdfs:member data:1050 ;
+    rdfs:member data:1051 ;
+    rdfs:member data:1052 ;
+    rdfs:member data:1053 ;
+    rdfs:member data:1054 ;
+    rdfs:member data:1055 ;
+    rdfs:member data:1056 ;
+    rdfs:member data:1057 ;
+    rdfs:member data:1058 ;
+    rdfs:member data:1059 ;
+    rdfs:member data:106 ;
+    rdfs:member data:1060 ;
+    rdfs:member data:1061 ;
+    rdfs:member data:1062 ;
+    rdfs:member data:1063 ;
+    rdfs:member data:1064 ;
+    rdfs:member data:1065 ;
+    rdfs:member data:1066 ;
+    rdfs:member data:1067 ;
+    rdfs:member data:1068 ;
+    rdfs:member data:1069 ;
+    rdfs:member data:107 ;
+    rdfs:member data:1070 ;
+    rdfs:member data:1071 ;
     skos:altLabel "HF2021" ;
     common:featureDate "2021-03-22"^^xsd:date .
+
 
